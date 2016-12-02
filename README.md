@@ -5,7 +5,7 @@ Occasionally one needs to detect and manipulate system services.  (Bearing in mi
 
 This is a collection of code that should operate similarly across platforms to provide a way to:
 
- 1. Detect if a service is enabled or disabled
- 2. Detect if a service is running or stopped
+ 1. Detect if a service is enabled or disabled, running or stopped
+ 2. Where possible, and providing the proper security measures are in place, allow a service to be enabled, disabled, started, stopped, or restarted.
  3. Report errors from the service so that applications can respond and/or report back to the user
- 4. Where possible, and providing the proper security measures are in place, allow a service to be enabled, disabled, started, stopped, or restarted.
+ 
